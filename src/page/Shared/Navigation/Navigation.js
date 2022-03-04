@@ -4,6 +4,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Avatar } from '@mui/material';
+import { Nav, Navbar } from 'react-bootstrap';
 
 
 const Navigation = () => {
@@ -23,6 +24,7 @@ const Navigation = () => {
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
+      <Nav.Link href="#about">About</Nav.Link>
         </>
       
       
